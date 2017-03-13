@@ -1,0 +1,32 @@
+legend {
+  font-stretch: expanded;
+  font-size: 3em;
+}
+
+fieldset {
+  margin: 60px auto;
+  padding: 15px;
+  width: 470px
+}
+
+.form-para {
+  margin: 11px 0px 25px 0px;
+  font-size: 22px;
+}
+
+label {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.radio-btn {
+  margin-left: 10px;
+}
+
+.submit-btn {
+  padding: 5px;
+  border-radius: 25%;
+  background-color: #BEBEBE;
+  margin: 15px 0px 15px 15px;
+  font-size: 13px;
+}

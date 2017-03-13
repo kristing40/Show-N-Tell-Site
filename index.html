@@ -1,29 +1,66 @@
 <!doctype html>
 <head>
-  <title>Show-n-tell-site</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="all" href="css/960_12_col.css" />
-    <link href="showntell.css" rel="stylesheet" type="text/css" />
+<title>Show-N-Tell-Site</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/show-n-tell.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Alice|Sacramento" rel="stylesheet">
 </head>
 <body>
-  <section class="container_12 clearfix">
-    <header class="grid_12">
+  <section id="container">
+    <header>
       <h1>My Loves</h1>
+      <nav>
+        <ul>
+          <li><a href="#travel">travel</a></li>
+          <li><a href="#food-lover">food lover</a></li>
+          <li><a href="#family-fun">family fun</a></li>
+          <li><a href="vote-index.html">vote</a></li>
+        </ul>
+      </nav>
     </header>
+    <section id="main">
+      <article class="articles article-1">
+        <figure>
+          <img src="images/exotic.jpeg" alt="Santorini vacation destination"/>
+        </figure>
+        <figcaption>Dreaming About Vacationing in Santorini</figcaption>
+      </article>
+      <article class="articles article-2">
+        <figure>
+          <img src="images/italy.jpeg" alt="Italian Food"/>
+        </figure>
+        <figcaption>Enjoying Denver's Craft Food</figcaption>
+      </article>
+      <article class="articles article-3">
+        <figure>
+          <img src="images/garden-of-the-gods.jpeg" alt="Vacation Destination"/>
+        </figure>
+        <figcaption>Spending Time with My Daughter</figcaption>
+      </article>
+    </section><!--End main-->
 
-    <article class="boxes box1 grid_4">
-    </article>
-    <article class="boxes box2 grid_4">
-      <h3>Tasty Cuisines</h3>
-    </article>
-    <article class="boxes box3 grid_4">
-      <h3>Spending Time with Famiy</h3>
-    </article>
+    <section id="sub-main-section">
+      <article class="sub-main-article article-4">
+        <h3 id="travel">Travel</h3>
+        <p class="indent">Traveling the world is something I aspire to do. There are many places I have been and many more I want to see.</p>
+      </article>
+      <article class="sub-main-article article-5">
+        <h3 id="food-lover">Food lover</h3>
+        <p class="indent">I am a foodie, yes I am and proud of it! I love all kinds of food, tastes and textures are what get me. Some of my favorite foods are seafood, greek, italian, and asian just to name a few.</p>
+      </article>
+      <article class="sub-main-article article-6">
+        <h3 id="family-fun">Family fun</h3>
+        <p class="indent">
+          My daughter and I spend alot of time together we have many of the same interests. Sight-seeing, short roadtrips and biking are things we enjoy doing together.
+        </p>
+      </article>
+    </section><!--End sub-main-section-->
 
-    <footer class="grid-12">
-      <h5>&copy; Kristi N. Green | All Rights Reserved</h5>
+    <footer>
+        <h5>&copy; Kristi N. Green | All Rights Reserved | <a href="mailto:kngreen40@gmail.com">Email Kristi</a></h5>
     </footer>
+
   </section><!--End container-->
 </body>
 </html>
