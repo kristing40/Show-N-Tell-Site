@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #FFEC8B;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #8C8C8C;
+}
+
+body {
+  border: 2px solid green;
+}
+
+header,
+footer,
+.boxes {
+  height: 150px;
+  border: 4px solid #fff;
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.boxes {
+ height: 340px;
+}
+
+.box1 {
+ background-image: url(images/exotic.jpeg); background-repeat: no repeat;
+ background-position: center center fixed;
+ background-size: cover;
+}
+
+.box1:after {
+  content: "santorini";
+}
+
+footer {
+  margin-top: 550px;
+  height: 100px;
+}
